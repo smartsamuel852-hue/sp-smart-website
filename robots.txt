@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smartsamuel852-hue.github.io/sp-smart-website/sitemap.xml
