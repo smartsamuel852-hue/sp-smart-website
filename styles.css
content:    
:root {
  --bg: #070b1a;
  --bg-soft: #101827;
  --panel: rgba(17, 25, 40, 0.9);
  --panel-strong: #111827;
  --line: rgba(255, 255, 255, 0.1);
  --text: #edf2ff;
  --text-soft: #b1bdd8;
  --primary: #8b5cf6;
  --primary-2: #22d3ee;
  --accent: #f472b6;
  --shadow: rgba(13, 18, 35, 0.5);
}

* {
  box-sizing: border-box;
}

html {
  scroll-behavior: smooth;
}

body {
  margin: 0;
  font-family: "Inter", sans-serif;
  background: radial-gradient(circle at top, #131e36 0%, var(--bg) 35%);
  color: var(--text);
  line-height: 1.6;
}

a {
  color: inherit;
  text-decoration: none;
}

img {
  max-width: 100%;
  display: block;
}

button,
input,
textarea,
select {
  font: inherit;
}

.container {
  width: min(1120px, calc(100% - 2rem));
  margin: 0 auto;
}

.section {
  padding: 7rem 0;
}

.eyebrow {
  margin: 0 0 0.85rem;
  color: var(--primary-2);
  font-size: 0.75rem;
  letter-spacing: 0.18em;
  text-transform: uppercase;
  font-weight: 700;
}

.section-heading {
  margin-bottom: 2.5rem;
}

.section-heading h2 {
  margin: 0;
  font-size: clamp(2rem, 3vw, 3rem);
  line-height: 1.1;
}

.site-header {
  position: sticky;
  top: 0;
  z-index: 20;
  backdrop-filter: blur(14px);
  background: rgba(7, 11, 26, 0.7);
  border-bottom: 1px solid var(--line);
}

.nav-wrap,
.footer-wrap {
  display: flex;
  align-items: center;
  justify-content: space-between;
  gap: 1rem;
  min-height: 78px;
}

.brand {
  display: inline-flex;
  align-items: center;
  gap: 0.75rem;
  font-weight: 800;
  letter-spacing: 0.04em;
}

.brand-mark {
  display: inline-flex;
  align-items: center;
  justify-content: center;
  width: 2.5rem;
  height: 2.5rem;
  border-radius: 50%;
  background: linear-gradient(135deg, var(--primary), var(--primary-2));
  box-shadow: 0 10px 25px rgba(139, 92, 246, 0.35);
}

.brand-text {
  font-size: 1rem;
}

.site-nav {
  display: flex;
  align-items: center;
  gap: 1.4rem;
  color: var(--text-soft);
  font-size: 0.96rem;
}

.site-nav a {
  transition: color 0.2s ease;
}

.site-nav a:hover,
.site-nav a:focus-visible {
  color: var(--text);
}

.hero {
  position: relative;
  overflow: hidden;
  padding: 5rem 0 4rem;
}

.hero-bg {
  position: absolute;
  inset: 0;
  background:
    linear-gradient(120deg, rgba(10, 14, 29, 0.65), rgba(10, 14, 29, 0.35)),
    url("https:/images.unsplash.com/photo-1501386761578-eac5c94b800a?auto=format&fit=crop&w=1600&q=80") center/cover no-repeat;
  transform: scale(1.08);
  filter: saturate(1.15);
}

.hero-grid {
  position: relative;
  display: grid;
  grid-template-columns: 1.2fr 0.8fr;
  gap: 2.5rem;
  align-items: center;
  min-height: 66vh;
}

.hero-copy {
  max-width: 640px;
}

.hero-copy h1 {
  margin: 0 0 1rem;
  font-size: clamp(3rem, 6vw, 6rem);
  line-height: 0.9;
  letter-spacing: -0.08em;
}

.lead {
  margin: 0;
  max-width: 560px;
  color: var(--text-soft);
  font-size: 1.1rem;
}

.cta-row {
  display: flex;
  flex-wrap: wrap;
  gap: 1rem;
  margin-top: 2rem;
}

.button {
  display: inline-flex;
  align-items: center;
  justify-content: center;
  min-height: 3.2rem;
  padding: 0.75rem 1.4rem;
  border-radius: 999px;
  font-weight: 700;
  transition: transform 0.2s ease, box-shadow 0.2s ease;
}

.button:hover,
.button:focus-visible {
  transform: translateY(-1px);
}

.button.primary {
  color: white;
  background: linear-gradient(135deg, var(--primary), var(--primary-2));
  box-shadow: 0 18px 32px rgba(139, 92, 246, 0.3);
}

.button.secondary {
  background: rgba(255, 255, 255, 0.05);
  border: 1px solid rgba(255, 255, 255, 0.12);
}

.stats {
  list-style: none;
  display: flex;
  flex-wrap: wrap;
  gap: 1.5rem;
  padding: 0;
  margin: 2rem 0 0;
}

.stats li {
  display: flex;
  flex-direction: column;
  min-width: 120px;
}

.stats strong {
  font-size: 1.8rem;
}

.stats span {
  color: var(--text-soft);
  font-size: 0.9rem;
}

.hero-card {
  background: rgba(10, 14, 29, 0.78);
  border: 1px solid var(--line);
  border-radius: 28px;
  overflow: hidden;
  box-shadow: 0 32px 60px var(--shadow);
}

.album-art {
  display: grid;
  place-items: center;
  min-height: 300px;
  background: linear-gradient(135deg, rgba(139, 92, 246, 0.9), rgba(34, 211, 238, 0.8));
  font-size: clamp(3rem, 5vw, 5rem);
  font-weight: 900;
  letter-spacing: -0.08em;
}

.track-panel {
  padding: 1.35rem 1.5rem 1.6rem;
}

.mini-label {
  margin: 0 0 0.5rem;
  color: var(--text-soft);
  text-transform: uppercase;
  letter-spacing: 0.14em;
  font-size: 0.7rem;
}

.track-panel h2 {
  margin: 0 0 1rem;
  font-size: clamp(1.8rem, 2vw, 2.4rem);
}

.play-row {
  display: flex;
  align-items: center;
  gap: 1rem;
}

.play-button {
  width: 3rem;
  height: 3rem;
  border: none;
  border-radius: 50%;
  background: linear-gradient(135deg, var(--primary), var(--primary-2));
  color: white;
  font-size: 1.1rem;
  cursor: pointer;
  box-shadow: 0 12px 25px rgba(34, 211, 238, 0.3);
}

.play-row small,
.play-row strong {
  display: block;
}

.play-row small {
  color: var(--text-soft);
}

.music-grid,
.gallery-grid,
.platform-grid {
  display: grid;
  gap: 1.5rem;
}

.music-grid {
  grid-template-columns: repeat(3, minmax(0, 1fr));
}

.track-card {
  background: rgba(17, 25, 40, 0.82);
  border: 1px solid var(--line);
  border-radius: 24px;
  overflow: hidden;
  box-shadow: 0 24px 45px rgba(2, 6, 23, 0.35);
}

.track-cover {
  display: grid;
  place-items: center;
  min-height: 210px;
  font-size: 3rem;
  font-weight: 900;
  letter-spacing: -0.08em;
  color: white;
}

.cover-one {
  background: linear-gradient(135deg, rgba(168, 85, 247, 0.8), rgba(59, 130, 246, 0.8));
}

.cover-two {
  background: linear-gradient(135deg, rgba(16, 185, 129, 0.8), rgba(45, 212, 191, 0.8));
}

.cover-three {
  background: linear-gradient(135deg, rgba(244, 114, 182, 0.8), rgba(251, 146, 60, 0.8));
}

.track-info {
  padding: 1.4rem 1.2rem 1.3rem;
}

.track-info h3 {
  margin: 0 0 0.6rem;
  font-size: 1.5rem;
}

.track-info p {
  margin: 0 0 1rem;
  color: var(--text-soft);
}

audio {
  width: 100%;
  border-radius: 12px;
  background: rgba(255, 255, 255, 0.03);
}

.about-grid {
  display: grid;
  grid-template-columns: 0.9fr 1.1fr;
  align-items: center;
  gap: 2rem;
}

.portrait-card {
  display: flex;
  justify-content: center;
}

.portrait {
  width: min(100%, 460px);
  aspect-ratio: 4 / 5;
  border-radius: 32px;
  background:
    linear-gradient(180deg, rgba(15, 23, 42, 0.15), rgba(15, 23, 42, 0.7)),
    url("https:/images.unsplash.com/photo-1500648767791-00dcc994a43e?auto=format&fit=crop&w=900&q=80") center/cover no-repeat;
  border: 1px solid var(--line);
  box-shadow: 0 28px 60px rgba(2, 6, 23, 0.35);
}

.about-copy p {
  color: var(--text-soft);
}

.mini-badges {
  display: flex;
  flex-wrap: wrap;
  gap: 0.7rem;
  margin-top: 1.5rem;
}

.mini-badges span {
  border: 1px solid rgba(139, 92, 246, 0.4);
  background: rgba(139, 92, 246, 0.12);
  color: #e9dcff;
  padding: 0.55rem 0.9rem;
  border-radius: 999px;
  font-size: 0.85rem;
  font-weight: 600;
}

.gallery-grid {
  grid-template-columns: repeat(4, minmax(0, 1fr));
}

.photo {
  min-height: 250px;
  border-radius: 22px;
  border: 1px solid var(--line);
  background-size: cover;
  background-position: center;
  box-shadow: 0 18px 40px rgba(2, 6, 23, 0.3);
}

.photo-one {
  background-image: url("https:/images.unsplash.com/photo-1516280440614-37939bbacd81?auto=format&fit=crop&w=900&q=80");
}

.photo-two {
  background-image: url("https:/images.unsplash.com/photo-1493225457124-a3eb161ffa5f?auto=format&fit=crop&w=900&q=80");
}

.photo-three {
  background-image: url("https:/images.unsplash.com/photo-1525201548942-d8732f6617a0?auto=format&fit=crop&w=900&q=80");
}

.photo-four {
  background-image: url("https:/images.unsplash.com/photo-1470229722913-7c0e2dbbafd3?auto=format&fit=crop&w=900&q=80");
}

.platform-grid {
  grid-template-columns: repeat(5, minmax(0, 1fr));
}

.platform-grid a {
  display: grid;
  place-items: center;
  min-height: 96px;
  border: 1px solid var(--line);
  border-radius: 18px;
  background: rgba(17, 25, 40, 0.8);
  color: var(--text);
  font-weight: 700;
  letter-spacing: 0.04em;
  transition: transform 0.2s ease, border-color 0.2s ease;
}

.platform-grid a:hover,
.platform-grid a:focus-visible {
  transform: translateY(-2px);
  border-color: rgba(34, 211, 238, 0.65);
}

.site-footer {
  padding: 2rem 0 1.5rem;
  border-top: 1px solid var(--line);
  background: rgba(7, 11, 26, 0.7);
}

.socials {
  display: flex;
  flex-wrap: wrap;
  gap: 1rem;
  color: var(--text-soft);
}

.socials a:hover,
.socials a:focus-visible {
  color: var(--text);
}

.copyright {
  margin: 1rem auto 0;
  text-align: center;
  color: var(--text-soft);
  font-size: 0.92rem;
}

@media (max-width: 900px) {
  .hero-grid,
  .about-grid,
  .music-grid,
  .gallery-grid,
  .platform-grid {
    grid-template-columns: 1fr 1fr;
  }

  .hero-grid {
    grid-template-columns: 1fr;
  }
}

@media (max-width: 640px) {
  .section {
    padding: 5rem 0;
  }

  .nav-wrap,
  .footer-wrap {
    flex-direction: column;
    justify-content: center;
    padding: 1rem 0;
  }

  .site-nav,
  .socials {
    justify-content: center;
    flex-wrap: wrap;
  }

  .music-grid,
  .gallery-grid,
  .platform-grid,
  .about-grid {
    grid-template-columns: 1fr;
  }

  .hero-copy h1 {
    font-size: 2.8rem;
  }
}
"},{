@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP Smart | Official Music Website</title>
+    <meta
+      name="description"
+      content="Official SP Smart music website featuring songs, music videos, photos, biography, latest releases, streaming platforms, social media links, and direct music playback."
+    />
+    <meta name="theme-color" content="#070b1a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="SP Smart home">
+          <span class="brand-mark">SP</span>
+          <span class="brand-text">SP Smart</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#music">Music</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#platforms">Platforms</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">New release</p>
+            <h1>Sound with soul.<br />Style with energy.</h1>
+            <p class="lead">
+              SP Smart is a bold new voice in music, blending infectious hooks,
+              rhythmic storytelling, and unforgettable live energy.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#music">Listen now</a>
+              <a class="button secondary" href="#about">About SP</a>
+            </div>
+            <ul class="stats" aria-label="Artist quick stats">
+              <li><strong>12+</strong><span>Original Tracks</span></li>
+              <li><strong>4.8k</strong><span>Monthly Listeners</span></li>
+              <li><strong>5</strong><span>Platforms</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Featured track card">
+            <div class="album-art">
+              <span>SP</span>
+            </div>
+            <div class="track-panel">
+              <p class="mini-label">Featured track</p>
+              <h2>Rise Up</h2>
+              <div class="play-row">
+                <button class="play-button" type="button" aria-label="Play Rise Up">
+                  ▶
+                </button>
+                <div>
+                  <small>New single</small>
+                  <strong>3:28</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="music" class="section music">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Latest releases</p>
+            <h2>Fresh sounds from SP Smart</h2>
+          </div>
+
+          <div class="music-grid">
+            <article class="track-card">
+              <div class="track-cover cover-one"><span>01</span></div>
+              <div class="track-info">
+                <h3>Rise Up</h3>
+                <p>Motivational anthem with a powerful hook and uplifting energy.</p>
+                <audio controls preload="none">
+                  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </article>
+
+            <article class="track-card">
+              <div class="track-cover cover-two"><span>02</span></div>
+              <div class="track-info">
+                <h3>Midnight Flow</h3>
+                <p>Late-night rhythm and smooth verses built for after-hours vibes.</p>
+                <audio controls preload="none">
+                  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </article>
+
+            <article class="track-card">
+              <div class="track-cover cover-three"><span>03</span></div>
+              <div class="track-info">
+                <h3>City Lights</h3>
+                <p>An energetic street anthem that celebrates movement, ambition, and focus.</p>
+                <audio controls preload="none">
+                  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container about-grid">
+          <div class="portrait-card">
+            <div class="portrait"></div>
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow">About</p>
+            <h2>Building a sound that moves people.</h2>
+            <p>
+              SP Smart is a rising artist focused on crafting memorable music that
+              blends rhythm, emotion, and confidence. Whether performing live or
+              creating in the studio, the mission is simple: make every track feel
+              authentic, uplifting, and unforgettable.
+            </p>
+            <p>
+              From energizing singles to cinematic visuals, SP Smart continues to
+              grow a brand rooted in creativity, connection, and a clear artistic vision.
+            </p>
+            <div class="mini-badges">
+              <span>Artist</span>
+              <span>Producer</span>
+              <span>Performer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section gallery">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Gallery</p>
+            <h2>Moments, visuals, and energy</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="photo photo-one"></div>
+            <div class="photo photo-two"></div>
+            <div class="photo photo-three"></div>
+            <div class="photo photo-four"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="platforms" class="section platforms">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Listen everywhere</p>
+            <h2>Stream SP Smart</h2>
+          </div>
+
+          <div class="platform-grid">
+            <a href="https://open.spotify.com" target="_blank" rel="noreferrer">Spotify</a>
+            <a href="https://music.apple.com" target="_blank" rel="noreferrer">Apple Music</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://www.amazon.com/music" target="_blank" rel="noreferrer">Amazon Music</a>
+            <a href="https://tidal.com" target="_blank" rel="noreferrer">TIDAL</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">SP</span>
+            <span class="brand-text">SP Smart</span>
+          </a>
+        </div>
+
+        <div class="socials" aria-label="Social media links">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X</a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="mailto:hello@sp-smart.example">Email</a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> SP Smart. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+"},{

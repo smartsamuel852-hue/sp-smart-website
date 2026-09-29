@@ -1,0 +1,39 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const playButton = document.querySelector('.play-button');
+if (playButton) {
+  playButton.addEventListener('click', () => {
+    const audio = document.querySelector('audio');
+    if (audio) {
+      if (audio.paused) {
+        audio.play();
+        playButton.textContent = '❚❚';
+      } else {
+        audio.pause();
+        playButton.textContent = '▶';
+      }
+    }
+  });
+}
+
+const audioPlayers = document.querySelectorAll('audio');
+audioPlayers.forEach((player) => {
+  player.addEventListener('play', () => {
+    audioPlayers.forEach((other) => {
+      if (other !== player) {
+        other.pause();
+      }
+    });
+    if (playButton) {
+      playButton.textContent = '❚❚';
+    }
+  });
+
+  player.addEventListener('pause', () => {
+    if (playButton) {
+      playButton.textContent = '▶';
+    }
+  });
+});
+
+"},{
